@@ -25,7 +25,10 @@ vim test.html #修改你的profile
 git add .
 git commit
 git push -u origin <your_branch> #推到你的分支
+```
 
+
+```sh
 # 合拼分支到 master
 git checkout master
 git merge <your_branch> --no-ff
@@ -74,6 +77,7 @@ git merge <your_branch>   #若要不使用 Fast-forward 的合拼 後面請加�
 
 #發生衝突．放棄合拼
 git reset --hard
+git push -uf origin master  #要加 -f 強制推上去
 ```
 
 合拼衝突處理
