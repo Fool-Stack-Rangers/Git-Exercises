@@ -85,3 +85,15 @@ git push -uf origin master  #要加 -f 強制推上去
 git mergetool
 git commit
 ```
+## 暫存處理 Stashing
+Stash 指令用在當你正在測試或是工作到一半，但是還不到 commit 的階段，這時就可以使用 stash 指令
+
+```sh
+git stash save   # 將目前的專案或是程式碼進行暫存，執行指令之後，會回到最近的一個 commit 
+
+git stash apply  # 將上次暫存的結果叫出來
+
+git stash list   # 列出所有的暫存結果，列出的結果類似 commit
+
+git stash clear  # 清除所有的暫存結果
+```
