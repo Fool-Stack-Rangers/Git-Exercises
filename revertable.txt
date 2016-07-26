@@ -1,5 +1,4 @@
 This is the line one
 This is the line two
 This is the line three
-This is the line four
 This is the line five
